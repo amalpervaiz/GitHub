@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: palevioletred;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 20px;
+    background-color: purple;
+    max-width: 800px;
+    display: flex;
+    border-radius: 20px;
+    padding: 3rem;
+}
+#search{
+background-color: plum;
+
+padding: 15px;
+border: none;
+outline: none;
+width: 400px;
+font-size: 20px;
+border-radius: 5px;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px black;
+   
+}
+.user-info{
+    color: #eee;
+    margin-left: 2rem;
+}
+.user-info h2{
+    margin-top: 0;
+}
+.user-info ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none ;
+
+}
+.user-info ul li {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+.repo {
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
